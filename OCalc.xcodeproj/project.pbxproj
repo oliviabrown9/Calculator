@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4529E4771D1A057100C14F92 /* TipPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4529E4771D1A057100C14F92 /* OCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4529E47A1D1A057100C14F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4529E47C1D1A057100C14F92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4529E47F1D1A057100C14F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		4529E4781D1A057100C14F92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4529E4771D1A057100C14F92 /* TipPro.app */,
+				4529E4771D1A057100C14F92 /* OCalc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4529E4761D1A057100C14F92 /* TipPro */ = {
+		4529E4761D1A057100C14F92 /* OCalc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4529E4891D1A057100C14F92 /* Build configuration list for PBXNativeTarget "TipPro" */;
+			buildConfigurationList = 4529E4891D1A057100C14F92 /* Build configuration list for PBXNativeTarget "OCalc" */;
 			buildPhases = (
 				4529E4731D1A057100C14F92 /* Sources */,
 				4529E4741D1A057100C14F92 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TipPro;
+			name = OCalc;
 			productName = TipPro;
-			productReference = 4529E4771D1A057100C14F92 /* TipPro.app */;
+			productReference = 4529E4771D1A057100C14F92 /* OCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +96,11 @@
 				TargetAttributes = {
 					4529E4761D1A057100C14F92 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8GEKYYW3CQ;
 					};
 				};
 			};
-			buildConfigurationList = 4529E4721D1A057100C14F92 /* Build configuration list for PBXProject "TipPro" */;
+			buildConfigurationList = 4529E4721D1A057100C14F92 /* Build configuration list for PBXProject "OCalc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4529E4761D1A057100C14F92 /* TipPro */,
+				4529E4761D1A057100C14F92 /* OCalc */,
 			);
 		};
 /* End PBXProject section */
@@ -249,10 +250,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.TipPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.ocalc;
+				PRODUCT_NAME = OCalc;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,17 +265,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.TipPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.okitsolivia.ocalc;
+				PRODUCT_NAME = OCalc;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4529E4721D1A057100C14F92 /* Build configuration list for PBXProject "TipPro" */ = {
+		4529E4721D1A057100C14F92 /* Build configuration list for PBXProject "OCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4529E4871D1A057100C14F92 /* Debug */,
@@ -279,13 +288,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4529E4891D1A057100C14F92 /* Build configuration list for PBXNativeTarget "TipPro" */ = {
+		4529E4891D1A057100C14F92 /* Build configuration list for PBXNativeTarget "OCalc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4529E48A1D1A057100C14F92 /* Debug */,
 				4529E48B1D1A057100C14F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
